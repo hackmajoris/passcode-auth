@@ -14,7 +14,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
   func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
     
     window = UIWindow()
-    window?.rootViewController = PasscodeSetupViewController()
+    
+    // Call PasscodeSetupViewController for the first time on order to create the passcode.
+    //window?.rootViewController = PasscodeSetupViewController()
+   
+    window?.rootViewController = LightModeViewController()
+    
     
     window?.makeKeyAndVisible()
     

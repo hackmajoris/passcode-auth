@@ -194,7 +194,7 @@ public class PasscodeView: UIView {
       self.delegate?.authDidSucceed(succes: passcodeMatch, message: message)
       
     } catch {
-      fatalError("Error reading password from keychain - \(error)")
+      print(("Error reading password from keychain - \(error)"))
     }
   }
   
@@ -204,7 +204,6 @@ public class PasscodeView: UIView {
     
     if combinationKey.count == passcodeLenght {
       delegate?.passcodeDidComplete(passcode: combinationKey)
-      
       checkPasscode()
       combinationKey = String()
       passcodeLabel.text? = String()
