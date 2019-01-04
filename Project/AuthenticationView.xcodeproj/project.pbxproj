@@ -1,0 +1,393 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A032455A2125999500DF5007 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03245592125999500DF5007 /* AppDelegate.swift */; };
+		A032455C2125999500DF5007 /* PasscodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A032455B2125999500DF5007 /* PasscodeViewController.swift */; };
+		A03245612125999700DF5007 /* AuthViewAsses.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A03245602125999700DF5007 /* AuthViewAsses.xcassets */; };
+		A03245642125999700DF5007 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A03245622125999700DF5007 /* LaunchScreen.storyboard */; };
+		A06DAD99212C0CD200CB1085 /* KeychainConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06DAD98212C0CD200CB1085 /* KeychainConfiguration.swift */; };
+		A07462D0212D4BA400CDFF02 /* PasscodeSetupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07462CF212D4BA400CDFF02 /* PasscodeSetupViewController.swift */; };
+		A0E8DA3C2125AFCD00D983D7 /* PasscodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E8DA3B2125AFCD00D983D7 /* PasscodeView.swift */; };
+		A0E8DA402126B99200D983D7 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E8DA3F2126B99200D983D7 /* Theme.swift */; };
+		A0E8DA422126C1B400D983D7 /* DarkModeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E8DA412126C1B400D983D7 /* DarkModeViewController.swift */; };
+		A0E8DA452126C1CF00D983D7 /* LightModeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E8DA442126C1CF00D983D7 /* LightModeViewController.swift */; };
+		A0E8DA472126D92800D983D7 /* TouchIDAuthentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E8DA462126D92800D983D7 /* TouchIDAuthentication.swift */; };
+		A0E8DA4D212AB98500D983D7 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E8DA4C212AB98500D983D7 /* HomeViewController.swift */; };
+		A0E8DAAB212AF92200D983D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0E8DAAA212AF92200D983D7 /* Assets.xcassets */; };
+		A0FBC1C1212BFB8B0008B7F5 /* KeychainPasswordItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0FBC1C0212BFB8B0008B7F5 /* KeychainPasswordItem.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A03245562125999500DF5007 /* AuthenticationView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AuthenticationView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A03245592125999500DF5007 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A032455B2125999500DF5007 /* PasscodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasscodeViewController.swift; sourceTree = "<group>"; };
+		A03245602125999700DF5007 /* AuthViewAsses.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = AuthViewAsses.xcassets; sourceTree = "<group>"; };
+		A03245632125999700DF5007 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A03245652125999700DF5007 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A06DAD98212C0CD200CB1085 /* KeychainConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainConfiguration.swift; sourceTree = "<group>"; };
+		A07462CF212D4BA400CDFF02 /* PasscodeSetupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasscodeSetupViewController.swift; sourceTree = "<group>"; };
+		A0E8DA3B2125AFCD00D983D7 /* PasscodeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PasscodeView.swift; sourceTree = "<group>"; };
+		A0E8DA3F2126B99200D983D7 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		A0E8DA412126C1B400D983D7 /* DarkModeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkModeViewController.swift; sourceTree = "<group>"; };
+		A0E8DA442126C1CF00D983D7 /* LightModeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightModeViewController.swift; sourceTree = "<group>"; };
+		A0E8DA462126D92800D983D7 /* TouchIDAuthentication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchIDAuthentication.swift; sourceTree = "<group>"; };
+		A0E8DA4C212AB98500D983D7 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		A0E8DAAA212AF92200D983D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A0FBC1C0212BFB8B0008B7F5 /* KeychainPasswordItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeychainPasswordItem.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A03245532125999500DF5007 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A032454D2125999500DF5007 = {
+			isa = PBXGroup;
+			children = (
+				A03245582125999500DF5007 /* AuthenticationView */,
+				A03245572125999500DF5007 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A03245572125999500DF5007 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A03245562125999500DF5007 /* AuthenticationView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A03245582125999500DF5007 /* AuthenticationView */ = {
+			isa = PBXGroup;
+			children = (
+				A0E8DAA7212AF63C00D983D7 /* Resources */,
+				A0E8DAA6212AF61800D983D7 /* Sources */,
+				A0E8DA432126C1BA00D983D7 /* Examples */,
+				A03245652125999700DF5007 /* Info.plist */,
+			);
+			path = AuthenticationView;
+			sourceTree = "<group>";
+		};
+		A0E8DA432126C1BA00D983D7 /* Examples */ = {
+			isa = PBXGroup;
+			children = (
+				A0E8DA412126C1B400D983D7 /* DarkModeViewController.swift */,
+				A0E8DA442126C1CF00D983D7 /* LightModeViewController.swift */,
+				A0E8DA4C212AB98500D983D7 /* HomeViewController.swift */,
+			);
+			path = Examples;
+			sourceTree = "<group>";
+		};
+		A0E8DAA6212AF61800D983D7 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				A0FBC1C0212BFB8B0008B7F5 /* KeychainPasswordItem.swift */,
+				A032455B2125999500DF5007 /* PasscodeViewController.swift */,
+				A0E8DA3B2125AFCD00D983D7 /* PasscodeView.swift */,
+				A0E8DA3F2126B99200D983D7 /* Theme.swift */,
+				A03245602125999700DF5007 /* AuthViewAsses.xcassets */,
+				A0E8DA462126D92800D983D7 /* TouchIDAuthentication.swift */,
+				A06DAD98212C0CD200CB1085 /* KeychainConfiguration.swift */,
+				A07462CF212D4BA400CDFF02 /* PasscodeSetupViewController.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		A0E8DAA7212AF63C00D983D7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A03245592125999500DF5007 /* AppDelegate.swift */,
+				A03245622125999700DF5007 /* LaunchScreen.storyboard */,
+				A0E8DAAA212AF92200D983D7 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A03245552125999500DF5007 /* AuthenticationView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A03245732125999700DF5007 /* Build configuration list for PBXNativeTarget "AuthenticationView" */;
+			buildPhases = (
+				A03245522125999500DF5007 /* Sources */,
+				A03245532125999500DF5007 /* Frameworks */,
+				A03245542125999500DF5007 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AuthenticationView;
+			productName = AuthenticationView;
+			productReference = A03245562125999500DF5007 /* AuthenticationView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A032454E2125999500DF5007 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = com.bmw;
+				TargetAttributes = {
+					A03245552125999500DF5007 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = A03245512125999500DF5007 /* Build configuration list for PBXProject "AuthenticationView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A032454D2125999500DF5007;
+			productRefGroup = A03245572125999500DF5007 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A03245552125999500DF5007 /* AuthenticationView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A03245542125999500DF5007 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A03245642125999700DF5007 /* LaunchScreen.storyboard in Resources */,
+				A0E8DAAB212AF92200D983D7 /* Assets.xcassets in Resources */,
+				A03245612125999700DF5007 /* AuthViewAsses.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A03245522125999500DF5007 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0E8DA452126C1CF00D983D7 /* LightModeViewController.swift in Sources */,
+				A0E8DA3C2125AFCD00D983D7 /* PasscodeView.swift in Sources */,
+				A0E8DA402126B99200D983D7 /* Theme.swift in Sources */,
+				A0E8DA422126C1B400D983D7 /* DarkModeViewController.swift in Sources */,
+				A06DAD99212C0CD200CB1085 /* KeychainConfiguration.swift in Sources */,
+				A07462D0212D4BA400CDFF02 /* PasscodeSetupViewController.swift in Sources */,
+				A032455C2125999500DF5007 /* PasscodeViewController.swift in Sources */,
+				A0FBC1C1212BFB8B0008B7F5 /* KeychainPasswordItem.swift in Sources */,
+				A0E8DA4D212AB98500D983D7 /* HomeViewController.swift in Sources */,
+				A032455A2125999500DF5007 /* AppDelegate.swift in Sources */,
+				A0E8DA472126D92800D983D7 /* TouchIDAuthentication.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A03245622125999700DF5007 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A03245632125999700DF5007 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A03245712125999700DF5007 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A03245722125999700DF5007 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A03245742125999700DF5007 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UXZ6YE4VZJ;
+				INFOPLIST_FILE = AuthenticationView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hackmajoris;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A03245752125999700DF5007 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UXZ6YE4VZJ;
+				INFOPLIST_FILE = AuthenticationView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hackmajoris;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A03245512125999500DF5007 /* Build configuration list for PBXProject "AuthenticationView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A03245712125999700DF5007 /* Debug */,
+				A03245722125999700DF5007 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A03245732125999700DF5007 /* Build configuration list for PBXNativeTarget "AuthenticationView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A03245742125999700DF5007 /* Debug */,
+				A03245752125999700DF5007 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A032454E2125999500DF5007 /* Project object */;
+}
