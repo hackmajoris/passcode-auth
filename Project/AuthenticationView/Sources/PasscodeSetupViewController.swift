@@ -3,7 +3,6 @@
 //  AuthenticationView
 //
 //  Created by Alex Ilies on 22/08/2018.
-//  Copyright © 2018 com.bmw. All rights reserved.
 //
 
 import UIKit
